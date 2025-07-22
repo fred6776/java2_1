@@ -7,13 +7,13 @@ public class Main {
         int ticketCost = 13676;
         // другую для хранения количества
         // рублей для одной бонусной мили
-        int ruble_miles = 20;
+        int rubleMiles = 20;
 
         // Рассчитываете количество бонусных миль, используя
         // значения заведённых переменных.
         // Ответ сохраняете в
         // новую переменную и
-        int bonusMiles = ticketCost / ruble_miles;
+        int bonusMiles = ticketCost / rubleMiles;
 
         // выводите на экран
         System.out.println("Начислено бонусных миль за купленный билет: " + bonusMiles);
